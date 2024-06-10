@@ -14,7 +14,7 @@ int main() {
     }
 
     // Switch statement
-    char c = 'A';
+    char c = 'D';
     switch (c) {
         case 'A':
             std::cout << "Character is A" << std::endl;
@@ -22,8 +22,10 @@ int main() {
         case 'B':
             std::cout << "Character is B" << std::endl;
             break;
+        case 'C':
+            std::cout << "Character is C" << std::endl;
         default:
-            std::cout << "Character is not A or B" << std::endl;
+            std::cout << "Character is not A, B or C" << std::endl;
             break;
     }
 
