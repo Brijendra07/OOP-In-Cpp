@@ -14,7 +14,7 @@ int main() {
     }
 
     // Switch statement
-    char c = 'D';
+    char c = 'C';
     switch (c) {
         case 'A':
             std::cout << "Character is A" << std::endl;
