@@ -10,7 +10,7 @@ int globalVar = 10; // Global variable
 
 int main() {
     // Calling the add function
-    int sum = add(5, 3);
+    int sum = add(6, 3);
     std::cout << "Sum: " << sum << std::endl;
 
     // Demonstrating parameter passing by reference
